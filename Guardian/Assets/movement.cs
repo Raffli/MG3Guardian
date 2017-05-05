@@ -13,7 +13,7 @@ public class movement : MonoBehaviour {
 	void Start () {
 		anim = GetComponent<Animator> ();
 		rb = GetComponent<Rigidbody> ();
-		//walk = true;
+		walk = true;
 	}
 	
 	// Update is called once per frame
