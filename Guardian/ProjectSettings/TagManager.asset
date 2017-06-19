@@ -8,6 +8,8 @@ TagManager:
   - MoveStopper
   - FinishField
   - DeadField
+  - Mushroom
+  - LightHand
   layers:
   - Default
   - TransparentFX

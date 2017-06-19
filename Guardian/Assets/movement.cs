@@ -43,20 +43,30 @@ public class movement : MonoBehaviour {
 		if (other.tag == "MoveStopper") {
 			walk = false;
 		
-		}else if (other.tag == "MoveStarter"){
+		} else if (other.tag == "MoveStarter") {
 			
 			walk = true;
-		}else if (other.tag == "FinishField"){
+		} else if (other.tag == "FinishField") {
 
 			walk = false;
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-		}else if (other.tag == "DeadField"){
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+		} else if (other.tag == "DeadField") {
+			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+			walk = false;
+		} else if (other.tag == "Mushroom") {
+			print ("Mushroom");
+			print (transform.rotation.y);
+			transform.Rotate (new Vector3 (0, 180, 0));
+			Collider col = other.gameObject.GetComponent<Collider> ();
+			col.isTrigger = false;
+		} else if (other.tag == "LightHand") {
+			walk = true;
+		}
+	}
+	void OnTriggerExit(Collider other){
+		if (other.tag == "LightHand") {
 			walk = false;
 		}
-
-	
-	
 	}
 		
 }
