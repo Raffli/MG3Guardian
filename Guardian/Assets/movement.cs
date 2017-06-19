@@ -8,6 +8,7 @@ public class movement : MonoBehaviour {
 	Animator anim;
 	public bool walk;
 	private Rigidbody rb;
+    public int speed;
 
 	// Use this for initialization
 	void Start () {
@@ -26,7 +27,7 @@ public class movement : MonoBehaviour {
 			anim.SetBool ("isWalking", true);
 			anim.SetBool ("isIdle", false);
 
-			rb.AddForce( new Vector3(80,0,0));
+			rb.AddForce( new Vector3(speed,0,0));
 
 		} else if (walk == false) {
 
@@ -48,7 +49,7 @@ public class movement : MonoBehaviour {
 		}else if (other.tag == "FinishField"){
 
 			walk = false;
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}else if (other.tag == "DeadField"){
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 			walk = false;
