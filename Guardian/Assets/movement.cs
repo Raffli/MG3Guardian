@@ -42,7 +42,9 @@ public class movement : MonoBehaviour {
 	void OnTriggerEnter (Collider other){
 		if (other.tag == "MoveStopper") {
 			walk = false;
-		
+		} else if (other.tag == "enemy") {
+			walk = false;
+			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
 		} else if (other.tag == "MoveStarter") {
 			
 			walk = true;
