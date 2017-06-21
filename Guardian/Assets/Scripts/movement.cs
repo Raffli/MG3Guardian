@@ -51,7 +51,6 @@ public class movement : MonoBehaviour {
 			SceneManager.LoadScene (8);
 			walk = false;
 		} else if (other.tag == "Mushroom") {
-			print ("Mushroom");
 			print (transform.rotation.y);
 			transform.Rotate (new Vector3 (0, 180, 0));
 			Collider col = other.gameObject.GetComponent<Collider> ();
@@ -59,6 +58,18 @@ public class movement : MonoBehaviour {
 			//col.isTrigger = false;
 		} else if (other.tag == "LightHand") {
 			walk = true;
+		}else if (other.tag == "RightMover") {
+			transform.eulerAngles = new Vector3(
+				transform.eulerAngles.x,
+				90,
+				transform.eulerAngles.z
+			);
+		}else if (other.tag == "LeftMover") {
+			transform.eulerAngles = new Vector3(
+				transform.eulerAngles.x,
+				270,
+				transform.eulerAngles.z
+			);
 		}
 	}
 	void OnTriggerExit(Collider other){
