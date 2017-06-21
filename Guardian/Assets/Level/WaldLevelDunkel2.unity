@@ -8601,7 +8601,7 @@ Prefab:
     - target: {fileID: 108141862786158938, guid: 812d0a8aca9512742bf89cc6bf91ed76,
         type: 2}
       propertyPath: m_Shadows.m_NearPlane
-      value: 0.0349
+      value: 0.039699998
       objectReference: {fileID: 0}
     - target: {fileID: 108141862786158938, guid: 812d0a8aca9512742bf89cc6bf91ed76,
         type: 2}
@@ -8620,6 +8620,26 @@ Prefab:
     - target: {fileID: 4674375901637064, guid: 812d0a8aca9512742bf89cc6bf91ed76, type: 2}
       propertyPath: m_LocalScale.y
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 136912090880605572, guid: 812d0a8aca9512742bf89cc6bf91ed76,
+        type: 2}
+      propertyPath: m_Radius
+      value: 0.19080228
+      objectReference: {fileID: 0}
+    - target: {fileID: 108141862786158938, guid: 812d0a8aca9512742bf89cc6bf91ed76,
+        type: 2}
+      propertyPath: m_Range
+      value: 3.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 108141862786158938, guid: 812d0a8aca9512742bf89cc6bf91ed76,
+        type: 2}
+      propertyPath: m_BounceIntensity
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114561651833648284, guid: 812d0a8aca9512742bf89cc6bf91ed76,
+        type: 2}
+      propertyPath: ModelPool.Array.data[1].LeftModel
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 812d0a8aca9512742bf89cc6bf91ed76, type: 2}
@@ -9132,6 +9152,11 @@ Prefab:
         type: 2}
       propertyPath: m_Shadows.m_NearPlane
       value: 1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 136576029656737082, guid: a9e6c35607c1d4d429f6f68116922998,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9e6c35607c1d4d429f6f68116922998, type: 2}
