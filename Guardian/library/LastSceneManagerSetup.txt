@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/EndMenu.unity
+- path: Assets/Retry.unity
   isLoaded: 1
   isActive: 1
