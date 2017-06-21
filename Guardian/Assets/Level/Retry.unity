@@ -839,6 +839,22 @@ Transform:
   m_PrefabParentObject: {fileID: 4390575844155584, guid: 812d0a8aca9512742bf89cc6bf91ed76,
     type: 2}
   m_PrefabInternal: {fileID: 436558259}
+--- !u!1 &436558261 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1293365962410926, guid: 812d0a8aca9512742bf89cc6bf91ed76,
+    type: 2}
+  m_PrefabInternal: {fileID: 436558259}
+--- !u!114 &436558262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 436558261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcd03e00992e084c8be61565d44b8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &448630442
 Prefab:
   m_ObjectHideFlags: 0
@@ -2540,6 +2556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353753521}
   - component: {fileID: 1353753522}
+  - component: {fileID: 1353753523}
   m_Layer: 0
   m_Name: RigidRoundHand_L
   m_TagString: Untagged
@@ -2587,6 +2604,17 @@ MonoBehaviour:
   wristJoint: {fileID: 0}
   elbowJoint: {fileID: 0}
   filtering: 0.5
+--- !u!114 &1353753523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1353753520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcd03e00992e084c8be61565d44b8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1370285422
 Prefab:
   m_ObjectHideFlags: 0
