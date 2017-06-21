@@ -11,6 +11,8 @@ TagManager:
   - Mushroom
   - LightHand
   - enemy
+  - no
+  - yes
   layers:
   - Default
   - TransparentFX
