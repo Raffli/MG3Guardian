@@ -7,10 +7,10 @@ public class retryScript : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other){
 		if (other.tag == "yes") {
-			SceneManager.LoadScene (2);
+			SceneManager.LoadScene (1);
 		} else if (other.tag == "no") {
 			//MENU laden
-			SceneManager.LoadScene (1);
+			SceneManager.LoadScene (0);
 		}
 	}
 }

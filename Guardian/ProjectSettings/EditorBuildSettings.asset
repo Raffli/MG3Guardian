@@ -6,20 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Menu.unity
+    path: Assets/Level/Menu.unity
   - enabled: 1
-    path: Assets/WaldLevelUeberbruecken1.unity
+    path: Assets/Level/WaldLevelHochheben1.unity
   - enabled: 1
-    path: Assets/WaldLevelHochheben1.unity
+    path: Assets/Level/WaldLevelUeberbruecken1.unity
   - enabled: 1
-    path: Assets/WaldLevelHochheben2.unity
+    path: Assets/Level/WaldLevelHochheben2.unity
   - enabled: 1
-    path: Assets/WaldLevelUeberbruecken2.unity
+    path: Assets/Level/WaldLevelUeberbruecken2.unity
   - enabled: 1
-    path: Assets/WaldLevelDunkel1.unity
+    path: Assets/Level/WaldLevelDunkel1.unity
   - enabled: 1
-    path: Assets/WaldLevelDunkel2.unity
+    path: Assets/Level/WaldLevelDunkel2.unity
   - enabled: 1
-    path: Assets/EndMenu.unity
+    path: Assets/Level/EndMenu.unity
   - enabled: 1
-    path: Assets/Retry.unity
+    path: Assets/Level/Retry.unity
