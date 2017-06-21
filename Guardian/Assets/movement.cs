@@ -7,13 +7,11 @@ public class movement : MonoBehaviour {
 
 	Animator anim;
 	public bool walk;
-	private Rigidbody rb;
     public float speed;
 
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
-		rb = GetComponent<Rigidbody> ();
 		walk = true;
 	}
 	
@@ -27,7 +25,6 @@ public class movement : MonoBehaviour {
 			anim.SetBool ("isWalking", true);
 			anim.SetBool ("isIdle", false);
 			transform.Translate(0, 0, speed/100 );
-			//rb.AddForce( new Vector3(speed,0,0));
 
 		} else if (walk == false) {
 
@@ -51,7 +48,7 @@ public class movement : MonoBehaviour {
 		} else if (other.tag == "FinishField") {
 
 			walk = false;
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex+1);
 		} else if (other.tag == "DeadField") {
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
 			walk = false;
@@ -60,7 +57,8 @@ public class movement : MonoBehaviour {
 			print (transform.rotation.y);
 			transform.Rotate (new Vector3 (0, 180, 0));
 			Collider col = other.gameObject.GetComponent<Collider> ();
-			col.isTrigger = false;
+			col.enabled = false;
+			//col.isTrigger = false;
 		} else if (other.tag == "LightHand") {
 			walk = true;
 		}
