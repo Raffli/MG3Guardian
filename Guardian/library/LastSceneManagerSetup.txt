@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Retry.unity
+- path: Assets/Level/WaldLevelUeberbruecken1.unity
   isLoaded: 1
   isActive: 1
