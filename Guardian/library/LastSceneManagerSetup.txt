@@ -1,4 +1,1 @@
-sceneSetups:
-- path: Assets/Level/WaldLevelHochheben2.unity
-  isLoaded: 1
-  isActive: 1
+sceneSetups: []
