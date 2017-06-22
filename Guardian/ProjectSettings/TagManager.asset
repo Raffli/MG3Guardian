@@ -16,6 +16,7 @@ TagManager:
   - LeftMover
   - RightMover
   - Stalaktit
+  - Adam
   layers:
   - Default
   - TransparentFX

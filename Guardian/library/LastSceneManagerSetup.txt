@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Level/WaldLevelDeckeHeben1.unity
+- path: Assets/Level/EndScene.unity
   isLoaded: 1
   isActive: 1

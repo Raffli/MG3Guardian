@@ -41,14 +41,14 @@ public class movement : MonoBehaviour {
 			walk = false;
 		} else if (other.tag == "enemy") {
 			walk = false;
-			SceneManager.LoadScene (8);
+			SceneManager.LoadScene (10);
 		} else if (other.tag == "MoveStarter"){
 			walk = true;
 		} else if (other.tag == "FinishField") {
 			walk = false;
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex+1);
 		} else if (other.tag == "DeadField") {
-			SceneManager.LoadScene (8);
+			SceneManager.LoadScene (10);
 			walk = false;
 		} else if (other.tag == "Mushroom") {
 			print (transform.rotation.y);
