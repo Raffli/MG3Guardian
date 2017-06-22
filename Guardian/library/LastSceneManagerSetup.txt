@@ -1,4 +1,1 @@
-sceneSetups:
-- path: Assets/Level/EndScene.unity
-  isLoaded: 1
-  isActive: 1
+sceneSetups: []
