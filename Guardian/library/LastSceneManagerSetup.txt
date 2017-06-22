@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Level/EndScene.unity
+- path: Assets/Level/WaldLevelDunkel2.unity
   isLoaded: 1
   isActive: 1
