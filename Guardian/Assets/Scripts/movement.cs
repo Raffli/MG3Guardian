@@ -70,12 +70,15 @@ public class movement : MonoBehaviour {
 				270,
 				transform.eulerAngles.z
 			);
+		}else if (other.tag == "Stalaktit") {
+			walk = false;
 		}
 	}
 	void OnTriggerExit(Collider other){
 		if (other.tag == "LightHand") {
 			walk = false;
+		} else if (other.tag == "Stalaktit") {
+			walk = true;
 		}
 	}
-		
 }

@@ -16,6 +16,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level/WaldLevelUeberbruecken2.unity
   - enabled: 1
+    path: Assets/Level/WaldLevelDeckeHeben1.unity
+  - enabled: 1
     path: Assets/Level/WaldLevelDunkel1.unity
   - enabled: 1
     path: Assets/Level/WaldLevelDunkel2.unity
