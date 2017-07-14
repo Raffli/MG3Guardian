@@ -1,0 +1,35 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   21.20.16.4627
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Niko\Desktop\GuardianV1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Niko\Desktop\GuardianV1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Niko\Desktop\GuardianV1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Niko\Desktop\GuardianV1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Niko\Desktop\GuardianV1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Niko\Desktop\GuardianV1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Niko\Desktop\GuardianV1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Niko\Desktop\GuardianV1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Niko\Desktop\GuardianV1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Niko\Desktop\GuardianV1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Niko\Desktop\GuardianV1_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\Niko\Desktop\GuardianV1_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.035 seconds
+Platform assembly: C:\Users\Niko\Desktop\GuardianV1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Niko\Desktop\GuardianV1_Data\Managed\System.dll (this message is harmless)
+desktop: 1280x720 60Hz; virtual: 1280x720 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.766662 ms
+Delayed playback via the optional argument of Play is deprecated. Use PlayDelayed instead!
+ 
+(Filename:  Line: 916)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3abc -> priority: 1 
